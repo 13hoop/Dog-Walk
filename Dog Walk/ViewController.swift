@@ -15,45 +15,44 @@ class ViewController: UIViewController, UITableViewDataSource {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
     
     tableView.registerClass(UITableViewCell.self,
       forCellReuseIdentifier: "Cell")
   }
-  
-  func tableView(tableView: UITableView,
-    numberOfRowsInSection section: Int) -> Int {
-    
-      return walks.count;
-  }
-  
-  func tableView(tableView: UITableView,
-    titleForHeaderInSection section: Int) -> String? {
-      return "List of Walks";
-  }
-  
-  func tableView(tableView: UITableView,
-    cellForRowAtIndexPath
-    indexPath: NSIndexPath) -> UITableViewCell {
-    
-    let cell =
-      tableView.dequeueReusableCellWithIdentifier("Cell",
-      forIndexPath: indexPath) as! UITableViewCell
-    
-    let dateFormatter = NSDateFormatter()
-    dateFormatter.dateStyle = .ShortStyle
-    dateFormatter.timeStyle = .MediumStyle
-    
-    let date =  walks[indexPath.row]
-      cell.textLabel!.text = dateFormatter.stringFromDate(date)
-    
-    return cell
-  }
-  
+	
+	// 添加
   @IBAction func add(sender: AnyObject) {
     walks.append(NSDate())
     tableView.reloadData()
   }
-  
+	
+	// MARK: -- UITableViewDataSource --
+	func tableView(tableView: UITableView,
+		numberOfRowsInSection section: Int) -> Int {
+			return walks.count;
+	}
+	
+	func tableView(tableView: UITableView,
+		titleForHeaderInSection section: Int) -> String? {
+			return "List of Walks";
+	}
+	
+	func tableView(tableView: UITableView,
+		cellForRowAtIndexPath
+		indexPath: NSIndexPath) -> UITableViewCell {
+			
+			let cell =
+			tableView.dequeueReusableCellWithIdentifier("Cell",
+				forIndexPath: indexPath)
+			
+			let dateFormatter = NSDateFormatter()
+			dateFormatter.dateStyle = .ShortStyle
+			dateFormatter.timeStyle = .MediumStyle
+			
+			let date =  walks[indexPath.row]
+			cell.textLabel!.text = dateFormatter.stringFromDate(date)
+			
+			return cell
+	}
 }
 
