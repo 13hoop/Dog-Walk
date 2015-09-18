@@ -12,6 +12,7 @@
 		B44953011BAB0B46006443B7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44953001BAB0B46006443B7 /* CFNetwork.framework */; };
 		B44953031BAB0B56006443B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44953021BAB0B56006443B7 /* QuartzCore.framework */; };
 		B44953051BAB0B63006443B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44953041BAB0B63006443B7 /* CoreGraphics.framework */; };
+		B44953071BABAC72006443B7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44953061BABAC72006443B7 /* CoreDataStack.swift */; settings = {ASSET_TAGS = (); }; };
 		FE9B988B196F812900661F7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B988A196F812900661F7D /* AppDelegate.swift */; };
 		FE9B988D196F812900661F7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B988C196F812900661F7D /* ViewController.swift */; };
 		FE9B9890196F812900661F7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9B988E196F812900661F7D /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		B44953001BAB0B46006443B7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B44953021BAB0B56006443B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B44953041BAB0B63006443B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B44953061BABAC72006443B7 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		FE9B9885196F812900661F7D /* Dog Walk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Walk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9B9889196F812900661F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE9B988A196F812900661F7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				FE9B988A196F812900661F7D /* AppDelegate.swift */,
 				FE9B988C196F812900661F7D /* ViewController.swift */,
+				B44953061BABAC72006443B7 /* CoreDataStack.swift */,
 				FE9B988E196F812900661F7D /* Main.storyboard */,
 				B44952F81BAAB5C0006443B7 /* LaunchScreen.storyboard */,
 				FE9B9891196F812900661F7D /* Images.xcassets */,
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44953071BABAC72006443B7 /* CoreDataStack.swift in Sources */,
 				FE9B988D196F812900661F7D /* ViewController.swift in Sources */,
 				FE9B988B196F812900661F7D /* AppDelegate.swift in Sources */,
 			);

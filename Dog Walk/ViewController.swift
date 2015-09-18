@@ -18,13 +18,14 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     tableView.registerClass(UITableViewCell.self,
       forCellReuseIdentifier: "Cell")
-  }
+	}
 	
 	// 添加
   @IBAction func add(sender: AnyObject) {
     walks.append(NSDate())
     tableView.reloadData()
-  }
+
+	}
 	
 	// MARK: -- UITableViewDataSource --
 	func tableView(tableView: UITableView,
@@ -55,4 +56,8 @@ class ViewController: UIViewController, UITableViewDataSource {
 			return cell
 	}
 }
+
+
+
+
 
