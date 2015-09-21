@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B44952F91BAAB5C0006443B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44952F81BAAB5C0006443B7 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		B44952FF1BAB0B23006443B7 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44952FE1BAB0B23006443B7 /* Reveal.framework */; settings = {ASSET_TAGS = (); }; };
 		B44953011BAB0B46006443B7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44953001BAB0B46006443B7 /* CFNetwork.framework */; };
 		B44953031BAB0B56006443B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44953021BAB0B56006443B7 /* QuartzCore.framework */; };
 		B44953051BAB0B63006443B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44953041BAB0B63006443B7 /* CoreGraphics.framework */; };
 		B44953071BABAC72006443B7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44953061BABAC72006443B7 /* CoreDataStack.swift */; settings = {ASSET_TAGS = (); }; };
+		B44AD1851BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1811BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		B44AD1861BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1811BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		B44AD1871BAFAAAB00A0B627 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1821BAFAAAB00A0B627 /* Walk.swift */; settings = {ASSET_TAGS = (); }; };
+		B44AD1881BAFAAAB00A0B627 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1821BAFAAAB00A0B627 /* Walk.swift */; settings = {ASSET_TAGS = (); }; };
+		B44AD1891BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1831BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		B44AD18A1BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1831BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		B44AD18B1BAFAAAB00A0B627 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1841BAFAAAB00A0B627 /* Dog.swift */; settings = {ASSET_TAGS = (); }; };
+		B44AD18C1BAFAAAB00A0B627 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1841BAFAAAB00A0B627 /* Dog.swift */; settings = {ASSET_TAGS = (); }; };
+		B469B7A81BAFA6A0000A4F71 /* Dog Walk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B469B7A61BAFA6A0000A4F71 /* Dog Walk.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
 		FE9B988B196F812900661F7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B988A196F812900661F7D /* AppDelegate.swift */; };
 		FE9B988D196F812900661F7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B988C196F812900661F7D /* ViewController.swift */; };
 		FE9B9890196F812900661F7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9B988E196F812900661F7D /* Main.storyboard */; };
@@ -37,6 +45,11 @@
 		B44953021BAB0B56006443B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B44953041BAB0B63006443B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B44953061BABAC72006443B7 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		B44AD1811BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B44AD1821BAFAAAB00A0B627 /* Walk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
+		B44AD1831BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B44AD1841BAFAAAB00A0B627 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		B469B7A71BAFA6A0000A4F71 /* Dog Walk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Dog Walk.xcdatamodel"; sourceTree = "<group>"; };
 		FE9B9885196F812900661F7D /* Dog Walk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Walk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9B9889196F812900661F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE9B988A196F812900661F7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +69,6 @@
 				B44953051BAB0B63006443B7 /* CoreGraphics.framework in Frameworks */,
 				B44953031BAB0B56006443B7 /* QuartzCore.framework in Frameworks */,
 				B44953011BAB0B46006443B7 /* CFNetwork.framework in Frameworks */,
-				B44952FF1BAB0B23006443B7 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +82,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B44AD18D1BAFAC2A00A0B627 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B44953061BABAC72006443B7 /* CoreDataStack.swift */,
+				B44AD1811BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift */,
+				B44AD1821BAFAAAB00A0B627 /* Walk.swift */,
+				B44AD1831BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift */,
+				B44AD1841BAFAAAB00A0B627 /* Dog.swift */,
+				B469B7A61BAFA6A0000A4F71 /* Dog Walk.xcdatamodeld */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
 		FE9B987C196F812900661F7D = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				FE9B988A196F812900661F7D /* AppDelegate.swift */,
+				B44AD18D1BAFAC2A00A0B627 /* data */,
 				FE9B988C196F812900661F7D /* ViewController.swift */,
-				B44953061BABAC72006443B7 /* CoreDataStack.swift */,
 				FE9B988E196F812900661F7D /* Main.storyboard */,
 				B44952F81BAAB5C0006443B7 /* LaunchScreen.storyboard */,
 				FE9B9891196F812900661F7D /* Images.xcassets */,
@@ -235,7 +260,12 @@
 			files = (
 				B44953071BABAC72006443B7 /* CoreDataStack.swift in Sources */,
 				FE9B988D196F812900661F7D /* ViewController.swift in Sources */,
+				B44AD1851BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift in Sources */,
+				B469B7A81BAFA6A0000A4F71 /* Dog Walk.xcdatamodeld in Sources */,
+				B44AD1871BAFAAAB00A0B627 /* Walk.swift in Sources */,
 				FE9B988B196F812900661F7D /* AppDelegate.swift in Sources */,
+				B44AD18B1BAFAAAB00A0B627 /* Dog.swift in Sources */,
+				B44AD1891BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44AD18A1BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift in Sources */,
+				B44AD1861BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift in Sources */,
+				B44AD1881BAFAAAB00A0B627 /* Walk.swift in Sources */,
+				B44AD18C1BAFAAAB00A0B627 /* Dog.swift in Sources */,
 				FE9B989E196F812900661F7D /* Dog_WalkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,18 +392,7 @@
 				);
 				INFOPLIST_FILE = "Dog Walk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lz",
-					"-framework",
-					"Reveal\n-ObjC",
-					"-lz",
-					"-framework",
-					"Reveal\n-ObjC",
-					"-lz",
-					"-framework",
-					Reveal,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -460,6 +483,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B469B7A61BAFA6A0000A4F71 /* Dog Walk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B469B7A71BAFA6A0000A4F71 /* Dog Walk.xcdatamodel */,
+			);
+			currentVersion = B469B7A71BAFA6A0000A4F71 /* Dog Walk.xcdatamodel */;
+			path = "Dog Walk.xcdatamodeld";
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FE9B987D196F812900661F7D /* Project object */;
 }
