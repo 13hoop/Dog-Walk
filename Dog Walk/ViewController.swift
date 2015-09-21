@@ -126,6 +126,34 @@ class ViewController: UIViewController, UITableViewDataSource {
 			
 			return cell
 	}
+	
+	func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+		return true
+	}
+	
+	func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+		
+		if editingStyle == UITableViewCellEditingStyle.Delete {
+
+			// 待删除walk
+			let walkToRemove = currentDog.walks![indexPath.row] as! Walk
+			
+			// 从上下文删除
+			managedContext.deleteObject(walkToRemove)
+			
+			// 保存上下文
+			do {
+				try managedContext.save()
+				print("ok")
+			} catch let error as NSError {
+				print("添加walk失败\(error)")
+			}
+
+			// 刷新UI
+			tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
+		}
+	}
+	
 }
 
 
