@@ -20,6 +20,7 @@ class CoreDataStack {
 	init() {
 		
 		//1 加载“磁盘上的被托管对象的模型（.momd文件）”到“托管对象模型（NSManagedObjectModel）”
+        // 可以简单的比对理解为从 “.xcdatamodeld［xib］”读取“model...［视图］“
 		let bundle = NSBundle.mainBundle()
 		let modelURL = bundle.URLForResource("Dog Walk", withExtension: "momd")
 		model = NSManagedObjectModel(contentsOfURL: modelURL!)!
@@ -31,7 +32,7 @@ class CoreDataStack {
 		context = NSManagedObjectContext()
 		context.persistentStoreCoordinator = psc
 		
-		//4 创建持久化方式（NSPersistentStore），并不直观初始化而是借助协调器配置 && 错误处理
+		//4 创建持久化方式（NSPersistentStore），并不是直观初始化而是借助协调器配置 && 错误处理
 		let documentsURL = CoreDataStack.applicationDocumentsDirectory()
 		let storeURL = documentsURL.URLByAppendingPathComponent("Dog Walk")
 		let options = [NSMigratePersistentStoresAutomaticallyOption: true]
@@ -64,9 +65,5 @@ class CoreDataStack {
 		let urls = fileManager.URLsForDirectory(NSSearchPathDirectory.DocumentDirectory, inDomains: NSSearchPathDomainMask.UserDomainMask)
 		return urls[0]
 	}
-	
-	
-	
-	
 	
 }

@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITableViewDataSource {
   @IBOutlet var tableView: UITableView!
 //  var walks:Array<NSDate> = []
 	var managedContext: NSManagedObjectContext!
-	
+    
 	var currentDog: Dog!
 
   
@@ -39,7 +39,8 @@ class ViewController: UIViewController, UITableViewDataSource {
 		
 		let dogEntity = NSEntityDescription.entityForName("Dog", inManagedObjectContext: managedContext)
 		let dogName = "Fido"
-		let dogFetch = NSFetchRequest(entityName: "Dog")
+		
+        let dogFetch = NSFetchRequest(entityName: "Dog")
 		// 设置查找“Fido”请求
 		dogFetch.predicate = NSPredicate(format: "name == %@", dogName)
 		

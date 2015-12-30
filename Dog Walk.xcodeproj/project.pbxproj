@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B44952F91BAAB5C0006443B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44952F81BAAB5C0006443B7 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		B44952F91BAAB5C0006443B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44952F81BAAB5C0006443B7 /* LaunchScreen.storyboard */; };
 		B44953011BAB0B46006443B7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44953001BAB0B46006443B7 /* CFNetwork.framework */; };
 		B44953031BAB0B56006443B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44953021BAB0B56006443B7 /* QuartzCore.framework */; };
 		B44953051BAB0B63006443B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44953041BAB0B63006443B7 /* CoreGraphics.framework */; };
-		B44953071BABAC72006443B7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44953061BABAC72006443B7 /* CoreDataStack.swift */; settings = {ASSET_TAGS = (); }; };
-		B44AD1851BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1811BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
-		B44AD1861BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1811BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
-		B44AD1871BAFAAAB00A0B627 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1821BAFAAAB00A0B627 /* Walk.swift */; settings = {ASSET_TAGS = (); }; };
-		B44AD1881BAFAAAB00A0B627 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1821BAFAAAB00A0B627 /* Walk.swift */; settings = {ASSET_TAGS = (); }; };
-		B44AD1891BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1831BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
-		B44AD18A1BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1831BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
-		B44AD18B1BAFAAAB00A0B627 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1841BAFAAAB00A0B627 /* Dog.swift */; settings = {ASSET_TAGS = (); }; };
-		B44AD18C1BAFAAAB00A0B627 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1841BAFAAAB00A0B627 /* Dog.swift */; settings = {ASSET_TAGS = (); }; };
-		B469B7A81BAFA6A0000A4F71 /* Dog Walk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B469B7A61BAFA6A0000A4F71 /* Dog Walk.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		B44953071BABAC72006443B7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44953061BABAC72006443B7 /* CoreDataStack.swift */; };
+		B44AD1851BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1811BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift */; };
+		B44AD1861BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1811BAFAAAB00A0B627 /* Walk+CoreDataProperties.swift */; };
+		B44AD1871BAFAAAB00A0B627 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1821BAFAAAB00A0B627 /* Walk.swift */; };
+		B44AD1881BAFAAAB00A0B627 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1821BAFAAAB00A0B627 /* Walk.swift */; };
+		B44AD1891BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1831BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift */; };
+		B44AD18A1BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1831BAFAAAB00A0B627 /* Dog+CoreDataProperties.swift */; };
+		B44AD18B1BAFAAAB00A0B627 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1841BAFAAAB00A0B627 /* Dog.swift */; };
+		B44AD18C1BAFAAAB00A0B627 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44AD1841BAFAAAB00A0B627 /* Dog.swift */; };
+		B469B7A81BAFA6A0000A4F71 /* Dog Walk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B469B7A61BAFA6A0000A4F71 /* Dog Walk.xcdatamodeld */; };
 		FE9B988B196F812900661F7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B988A196F812900661F7D /* AppDelegate.swift */; };
 		FE9B988D196F812900661F7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B988C196F812900661F7D /* ViewController.swift */; };
 		FE9B9890196F812900661F7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9B988E196F812900661F7D /* Main.storyboard */; };
@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					FE9B9884196F812900661F7D = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = Y9JSEN3V7X;
 					};
 					FE9B9896196F812900661F7D = {
 						CreatedOnToolsVersion = 6.0;
@@ -385,6 +386,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dog",
@@ -395,6 +398,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -402,6 +406,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dog",
@@ -411,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
